@@ -1,0 +1,15 @@
+{
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false,
+          "minify": true
+        }
+      ]
+    ],
+    "plugins": [
+      "external-helpers",
+      "transform-object-rest-spread"
+    ]
+  }
