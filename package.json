@@ -2,6 +2,7 @@
   "name": "@playma256/schema-normalizer",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/PlayMa256/schema-normalizer",
   "main": "main.cjs.js",
   "scripts": {
     "build": "rollup -c ./rollup.config.js"
