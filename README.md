@@ -26,7 +26,7 @@ We would like to extract just prop22 from prop2 and everything from prop4, but w
 
 First: we create a "pseudo" schema.
 
-```
+```javascript
 export default {
   prop2: ['prop22'],
   prop4: "*",
@@ -52,7 +52,7 @@ const finalData = normalizer(schema, data);
 As a result:
 ```javascript
 console.log(finalData);
-{
+>> {
   prop2: [{prop22: 'teste2'}],
   prop4: {
     prop41: 'something',
