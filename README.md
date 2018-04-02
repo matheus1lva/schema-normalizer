@@ -61,3 +61,8 @@ console.log(finalData);
   prop5: ''
 };
 ```
+
+This lib has two wildcards that can be used at the moment:
+- \* (asterisk) -> this means, everything from the property.
+- ! (optional) -> if it has this value, add, if not, omit.
+
