@@ -49,3 +49,15 @@ const data = {
 const finalData = normalizer(schema, data);
 ```
 
+As a result:
+```javascript
+console.log(finalData);
+{
+  prop2: [{prop22: 'teste2'}],
+  prop4: {
+    prop41: 'something',
+    prop42: 'something2'
+  },
+  prop5: ''
+};
+```
