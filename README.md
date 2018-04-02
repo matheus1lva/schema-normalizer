@@ -46,6 +46,6 @@ const data = {
   }
 };
 
-const finalData = normalizer(data, schema);
+const finalData = normalizer(schema, data);
 ```
 
