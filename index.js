@@ -75,7 +75,7 @@ function fillOrReturn(property, object) {
 	return object[property];
 }
 
-export function normalizer(pseudoSchema, data) {
+export default function normalizer(pseudoSchema, data) {
 	const schema = { ...pseudoSchema };
 	const finalResult = generateSameType(data);
 

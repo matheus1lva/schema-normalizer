@@ -4,8 +4,16 @@ import uglify from 'rollup-plugin-uglify';
 export default [{
   input: './index.js',
   output: {
-    file: 'main.cjs.js',
+    file: 'dist/main.cjs.js',
     format: 'cjs'
+  },
+  plugins: [babel(), uglify()]
+},
+{
+  input: './index.js',
+  output: {
+    file: 'dist/main.es.js',
+    format: 'es'
   },
   plugins: [babel(), uglify()]
 }];
