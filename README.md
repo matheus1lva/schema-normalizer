@@ -1,6 +1,6 @@
 # schema-normalizer
 ## Installation
-`npm i @playma256/schema-normalizer --save-dev` or `yarn add @playma256/schema-normalizer -D`
+`npm i @playma256/schema-normalizer --save` or `yarn add @playma256/schema-normalizer -S`
 
 ## Motivations
 Well, i needed a data normalizer, but a simple one which i could say which properties of something i needed and that would be exported.
