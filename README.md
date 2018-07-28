@@ -1,4 +1,7 @@
 # schema-normalizer
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/PlayMa256/schema-normalizer.svg)](https://greenkeeper.io/)
+
 ## Installation
 `npm i @playma256/schema-normalizer --save` or `yarn add @playma256/schema-normalizer -S`
 
